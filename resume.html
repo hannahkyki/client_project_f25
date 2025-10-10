@@ -3,23 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Resumes</title>
 </head>
 <body>
   <header>
-    <a href = "#maincontent">Skip to Main Content</a>
+    <a href = "#maincontent" class = "skip">Skip to Main Content</a>
     <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+
+    <h1>Resume Support</h1>
     
     <nav>
         <ul>
             <li><a href = "index.html">Home</a></li>
-            <li><a href = "resume.html">Resumes</a></li>
+            <li class = "active"><a href = "resume.html">Resumes</a></li>
             <li><a href = "network.html">Build Your Network</a></li>
             <li><a href = "job_search.html">Planning Your Job Search</a></li>
         </ul>
     </nav>
-
-    <h1>Resume Support</h1>
   </header>
   <main id = "maincontent">
     
@@ -60,7 +68,7 @@
     <aside>
       <section>
         <h2>Resume Resources</h2>
-        <ul>
+        <ul class = "resume-resources">
           <li>
             <a href="https://docs.google.com/document/d/1_1GfDJyVGIgE82MZjVhuWT_aB_2Hcj1NN62FUCXoR_o/edit?tab=t.0" target="_blank">
               UMSI Resume Guide and Rubric
@@ -86,7 +94,7 @@
             Attend a Resume Refresh workshop, review video tutorials, or access additional templates.
           </li>
         </ul>
-        <p>
+        <p class = "callout">
           Ready for review? <a href="https://umich.instructure.com/courses/137916/pages/talk-to-a-career-coach" target="_blank">Book a resume review appointment with a CDO Career Coach</a>.
         </p>
       </section>
@@ -117,10 +125,13 @@
           UMGPT. (2025). UMGPT (GPT-4.1 August 25th version) [Large language model]. -->
   
   </main>
-  <footer>
-      <p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a></p>
-  </footer>
-    
-</body>
 
+  <footer>
+      <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+      <p><strong>University of Michigan School of Information</strong></p>
+      <a href="https://umich.instructure.com/courses/137916" target = "_blank">UMSI Career Development Office Canvas Page</a>
+      <a href = "mailto:umsi.careers@umich.edu">umsi.careers@umich.edu</a>
+      <p>Visit us in person at the <a href="https://www.si.umich.edu/about-umsi/getting-umsi" target="_blank">Leinweber Building</a> on Level 2</p>
+  </footer>
+</body>
 </html>

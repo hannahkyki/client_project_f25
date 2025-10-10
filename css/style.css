@@ -1,0 +1,160 @@
+body {
+    font-family: "Montserrat", arial, sans-serif;
+    line-height: 1.5;
+    font-size: 12pt;
+}
+
+a {
+    color: #000000;
+}
+
+a:focus {
+    border: 3px solid red;
+}
+
+li {
+    margin: 14px 0 0 24px;
+}
+
+header, footer {
+    background-color: #00274C;
+    color: #ffffff;
+    padding: 16px;
+}
+
+header a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer {
+    padding-bottom: 10%;
+    margin-top: 10%;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer > a, footer p {
+    display: block;
+    margin: 5% 0;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header img, footer img {
+    width: 56px;
+}
+
+header .skip {
+    position: absolute;
+    top: -65px;
+    background-color: #00274C;
+}
+
+header .skip:focus {
+    top: 25px;
+}
+
+nav ul li {
+    padding: 12px; 
+    border: 2px solid #2F65A7;
+    margin: 0;
+}
+
+.active {
+    background-color: #FFCB05;
+    border-color: #FFCB05;
+}
+
+.active a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 22pt;
+    margin: 40px 0 20px 0;
+}
+
+h2 {
+    font-size: 18pt;
+    margin: 40px 0 16px 0;
+}
+
+h3 {
+    font-size: 16pt;
+    margin: 40px 0 16px 0;
+}
+
+section {
+    margin: 24px 16px;
+}
+
+iframe {
+    width: 100%;
+    margin-top: 10%;
+}
+
+img {
+    width: 100%;
+}
+
+/* HOME PAGE //////////////////// */
+
+.popular-resources {
+    background-color: #2F65A7;
+    padding: 5% 5% 10% 5%;
+    margin: 0;
+}
+
+.popular-resources h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.popular-resources p {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.popular-resources ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+}
+
+.popular-resources li {
+    background-color: #00274C;
+    padding: 16px;
+    margin: 2px;
+    text-align: center;
+}
+
+.popular-resources li a {
+    color: #ffffff;
+}
+
+.popular-resources li:last-child {
+    grid-column: 1 / span 2;
+}
+
+/* RESUME PAGE //////////////////// */
+
+.resume-resources {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.callout {
+    background-color: #FFCB05;
+    padding: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}

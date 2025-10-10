@@ -3,27 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Building Your Network</title>
 </head>
 <body>
 
     <header>
-        <a href = "#maincontent">Skip to Main Content</a>
+        <a href = "#maincontent" class = "skip">Skip to Main Content</a>
         <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+
+        <h1>Building Your Network</h1>
         
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "resume.html">Resumes</a></li>
-                <li><a href = "network.html">Build Your Network</a></li>
+                <li class = "active"><a href = "network.html">Build Your Network</a></li>
                 <li><a href = "job_search.html">Planning Your Job Search</a></li>
             </ul>
         </nav>
-        
-        <h1>Building Your Network</h1>
-
     </header>
+
     <main id = "maincontent">
+    
         <section>
             <h2>Learn from Informational Interviews</h2>
             <img src = "images/UMSI_CareerFair_10.jpg" alt = "A girl in professional attire smiles as they listen to a recruiter.">
@@ -45,6 +54,7 @@
             <a href = "https://docs.google.com/presentation/d/1QR0UA8V4d_hjHuayVbzF5_bx8d_8m3Ohvx9e5SiBodg/edit?usp=sharing" target = "_blank">Click to see workshop slides on Informational Interviews</a>
             <!-- Content taken and modified from this slide deck: "[Workshop Slides] Informational Interviews using the TIARA Method"; link: https://docs.google.com/presentation/d/1QR0UA8V4d_hjHuayVbzF5_bx8d_8m3Ohvx9e5SiBodg/edit?usp=sharing -->
         </section>
+
         <section>
             <h2>Where to Find Alumni</h2>
             <img src = "images/UMSI_CareerFair_18.jpg" alt = "Two boys laugh as they talk to a recruiter at the career fair.">
@@ -57,11 +67,16 @@
                 <li>Faculty, supervisors, and mentors</li>
             </ul>
 
-            <p>Find email templates, writing tips, in <a href = "https://docs.google.com/presentation/d/1R6azi49e7vd3ubRtdm33qG6Aq3bLBDBue7blM6pv49I/edit?usp=sharing" target = "_blank">this workshop slideshow!</a></p>
+            <p class = "callout">Find email templates, writing tips, in <a href = "https://docs.google.com/presentation/d/1R6azi49e7vd3ubRtdm33qG6Aq3bLBDBue7blM6pv49I/edit?usp=sharing" target = "_blank">this workshop slideshow!</a></p>
         </section>
     </main>
+
     <footer>
-        <p>University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office </a></p>
+      <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+      <p><strong>University of Michigan School of Information</strong></p>
+      <a href="https://umich.instructure.com/courses/137916" target = "_blank">UMSI Career Development Office Canvas Page</a>
+      <a href = "mailto:umsi.careers@umich.edu">umsi.careers@umich.edu</a>
+      <p>Visit us in person at the <a href="https://www.si.umich.edu/about-umsi/getting-umsi" target="_blank">Leinweber Building</a> on Level 2</p>
     </footer>
 </body>
 </html>
