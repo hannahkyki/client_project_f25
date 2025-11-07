@@ -32,7 +32,7 @@
 
   <main id = "maincontent">
   
-    <section>
+    <section class="two_col_section">
       <h2>Your Central Hub for Career Success at UMSI</h2>
       <p>
         Ready to take the next step toward your future career? The UMSI Career Development Resource Hub is your one-stop shop for trusted guidance, practical tools, and the latest information to help you thrive as a student and job-seeker. Whether you are just starting your exploration or getting ready to launch your career, you will find everything you need, organized for you.
@@ -51,21 +51,61 @@
       </ul>
     </section>
 
-    <section>
+    <section class="two_col_section">
       <h2>Connect with the UMSI Career Development Office</h2>
       <p>
         The UMSI Career Development Office (CDO) offers personalized support through appointments, events, and resource guides. <a href="https://umich.instructure.com/courses/137916" target="_blank">Visit the CDO website</a> or <a href="https://www.si.umich.edu/about-umsi/getting-umsi" target="_blank">find us on campus</a> to learn more, schedule a coaching session, or just say hello.
       </p>
+
+      <form>
+        <h3>Send a message to the CDO!</h3>
+        <fieldset>
+          <legend>Contact Information</legend>
+
+          <label for="name">First and Last Name*</label>
+          <input type="text" id="name" required>
+
+          <label for="email">UMICH Email*</label>
+          <input type="email" id="email" required>
+        </fieldset>
+
+        <fieldset>
+          <legend>Reason for Request</legend>
+
+          <div>
+            <input type="checkbox" id="Option1">
+            <label for="Option1">I'd like to set up an appointment</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="Option2">
+            <label for="Option2">I'd have a question about an event</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="Option3">
+            <label for="Option3">Other reason</label>
+          </div>
+
+          <label for="message">(Optional) Add a message to help us better understand how to support you!</label>
+          <input type="textarea" id="message">
+        </fieldset>
+
+        <input type="submit" value="Submit" class="submit-button">
+      </form>
+
       <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="A student wears a UMSI backpack in fall on the drag.">
     </section>
 
-    <section>
+    <section class="two_col_section">
       <h2>Why Use This Resource?</h2>
 
       <ul>
         <li><strong>Everything in One Place:</strong> Stop searching endlessly—quickly access the resources you need for resumes, interviews, networking, mentorship, and more.</li>
         <li><strong>Student-Focused Navigation:</strong> Browse by topic or question. Key areas are highlighted so you can get moving right away.</li>
         <li><strong>Guidance Backed by Experts:</strong> All resources are recommended and reviewed by the UMSI Career Development Office, so you can trust the advice and materials you find here.</li>
+      </ul>
+      <ul>
         <li><strong>Always Accessible:</strong> Visit the site anytime, from any device. We’re committed to meeting the accessibility needs of all students.</li>
         <li><strong>Modern Support, UMSI Excellence:</strong> We benchmark against top peer institutions and integrate UMSI’s unique support, showcasing our commitment to your success.</li>
       </ul>
@@ -81,6 +121,9 @@
       <a href="https://umich.instructure.com/courses/137916" target = "_blank">UMSI Career Development Office Canvas Page</a>
       <a href = "mailto:umsi.careers@umich.edu">umsi.careers@umich.edu</a>
       <p>Visit us in person at the <a href="https://www.si.umich.edu/about-umsi/getting-umsi" target="_blank">Leinweber Building</a> on Level 2</p>
+      <br>
+      <p>© <span id="year"></span> Hannah Kim. All rights reserved.</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
